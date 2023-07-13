@@ -1,0 +1,68 @@
+.wrap{
+    background-color: #056DFA;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rally {
+    display: flex;
+    height: 100%;
+}
+
+.container li a{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: inset 0 0px 0 white;
+}
+
+.container li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Other {
+    display: flex;
+    height: 100%;
+}
+
+.Other li:nth-child(3) a{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #056DFA;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.logo{
+    width : 120px;
+    height : 37.7px;
+}
+
+.container li a:hover {
+    box-shadow: inset 0 -10px 0 white;
+    transition: .5s ease;
+}
+
+.ssibal a:hover {
+    box-shadow: none !important;
+    box-shadow: inset 0 0px 0 white !important;
+}

@@ -1,0 +1,115 @@
+  .modal {
+    position: absolute;
+    width: 500px;
+    height: 530px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    z-index: 99;
+  }
+
+  .header{
+    width: 100%auto;
+    height: 40px;
+    font-size: 22px;
+    display: flex;
+    justify-content: left;
+    padding-top: 25px;
+    border-bottom: 1.5px solid black;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .info {
+    width: 100%auto;
+    background-color: #F5F5F5;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  .report1 {
+    width: 100%auto;
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .text1 {
+    margin-top: 15px;
+  }
+
+  .radio {
+    width: 320px;
+    height: 150px;
+    background-color: white;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .report2 {
+    width: 100%auto;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
+  .text2 {
+    margin-left: 90px;
+  }
+  .report3 {
+    width: 100%auto;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  textarea {
+    width: 320px;
+    height: 95px;
+    margin-left: 20px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+    /* 모달창 내부 확인 버튼 */
+  .ok {
+    width: 100px;
+    height: 40px;
+    background-color: #FF342B ;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+  }
+
+  /* 모달창 내부 취소 버튼 */
+  .close {
+    width: 100px; 
+    height: 40px;
+    background-color: #D9D9D9 !important;
+    color: black;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .text3 {
+    width: 100%auto;
+    margin-left: 25px;
+    color: #7D7D7D;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }

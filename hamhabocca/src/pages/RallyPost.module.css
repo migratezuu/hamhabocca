@@ -1,0 +1,262 @@
+.container {
+    display: flex;
+    font-weight: 400;
+}
+
+.board {
+    border-left: 1.5px solid #202020;
+    width: 745px;
+    padding-left: 55px;
+}
+
+.title button {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    height: 60px;
+    border-bottom: 1.5px solid #202020;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.postStatus {
+    width: 175px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.label > div {
+    margin-right: 15px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rallyname {
+    width: 380px;
+    margin-right: 15px;
+}
+
+.report {
+    width: 90px;
+    background: #FF342B;
+    color: white;
+}
+
+.edit {
+    width: 65px;
+    margin-left: 15px;
+    background: #D9D9D9;
+    color: #303030;
+}
+
+/* 상단 말머리 끝 */
+
+.writer {
+    margin: 10px 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.writer>div {
+    display: flex;
+    align-items: center;
+}
+
+.writerImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    background: gray;
+    margin-right: 10px;
+}
+
+.writer p {
+    font-size: 12px;
+    align-self: flex-start;
+}
+
+/* 작성 정보 끝 */
+
+.rallyinfo {
+    margin: 10px 0;
+    height: 400px;
+    display: flex;
+}
+
+.map {
+    width: 405px;
+    height: 400px;
+    background: #056DFA;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+
+.location h2 {
+    font-size: 32px;
+    height: 35px;
+}
+
+.location h3 {
+    font-size: 21px;
+    margin: 5px 0;
+    height: 60px;
+    line-height: normal;
+}
+
+.location h4 {
+    height: 20px;
+    color: white;
+    border-radius: 2px;
+    background-color: #FF7A00;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    width: 320px;
+    margin-top: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.time > div {
+    margin: 5px 0;
+}
+
+.datelabel {
+    width: 90px;
+    padding: 5px 0;
+    background: #D9D9D9;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+}
+
+.time > p {
+    margin-left: 10px;
+}
+
+.rallyStatus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.done {
+    border-radius: 2px;
+    border: none;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FF7A00 !important;
+    color: white;
+    cursor: pointer;
+}
+
+.rallyStatus > button {
+    border-radius: 2px;
+    border: none;
+    height: 65px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    background: #7D7D7D;
+    color: white;
+    cursor: pointer;
+}
+
+.rallyStatus > button:nth-child(2) {
+    margin-left: 10px;
+}
+
+/* 랠리 info 끝*/
+
+.rallydetail {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #D9D9D9;
+    border-radius: 2px;
+    height: 310px;
+}
+
+/* 랠리 상세텍스트 끝*/
+
+.comments {
+    border-top: 1.5px solid #202020;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.commentList {
+    min-height: 100px;
+    padding: 20px 0;
+}
+
+.mycomment {
+    border-top: 1.5px solid #202020;
+    padding: 15px 0 0 0;
+}
+
+.mention {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mention > textarea {
+    border: 1px solid gainsboro;
+    width: 620px;
+    height: 55px;
+    padding: 5px;
+    font-weight: 400;
+    resize: none;
+    margin: 0;
+}
+
+.mycomment button {
+    box-sizing: border-box;
+    width: 90px;
+    height: 65px;
+    border: 2px solid #056DFA;
+    border-radius: 2px;
+    background: white;
+    font-size: 20px;
+    font-weight: 700;
+    color: #056DFA;
+    cursor: pointer;
+}
+
+/* 댓글란 끝 */

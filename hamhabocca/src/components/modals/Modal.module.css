@@ -1,0 +1,77 @@
+.modal {
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    z-index: 99;
+}
+
+.header {
+    width: 100% auto;
+    height: 40px;
+    font-size: 22px;
+    display: flex;
+    justify-content: left;
+    padding-top: 25px;
+    border-bottom: 1.5px solid black;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.info {
+    width: 500px;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.info h2 {
+    margin: 20px;
+}
+
+.text {
+    color: #7D7D7D;
+}
+
+/* 모달창 내부 확인 버튼 */
+.ok {
+    width: 100px;
+    height: 40px;
+    background-color: #056DFA;
+    color: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.nagetive {
+    width: 100px;
+    height: 40px;
+    background-color: #FF342B;
+    color: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+/* 모달창 내부 취소 버튼 */
+.close {
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #D9D9D9 !important;
+    color: black;
+    border: none;
+    font-weight: bold;
+}

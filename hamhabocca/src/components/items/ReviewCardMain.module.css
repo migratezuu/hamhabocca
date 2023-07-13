@@ -1,0 +1,61 @@
+.Container {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    width: 320px;
+    height: 185px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.RallyType {
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Container h3 {
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.RallyMaster {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.DateAndLocation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.Container button {
+    font-size: 20pt;
+    color: #056DFA;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 2px solid #056DFA;
+    border-radius: 50%;
+}

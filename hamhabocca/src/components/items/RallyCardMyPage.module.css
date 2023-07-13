@@ -1,0 +1,86 @@
+.CardContainer {
+    width: 310px;
+    height: 90px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.TypeAndTitle {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    column-gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.RallyName {
+    max-width: 215px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.RallyName:hover {
+    cursor: pointer;
+}
+
+.Others {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.Others h4 {
+    font-size: 13px;
+}
+
+.Date {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.BiCalendarCheck {
+    color: #FF7A00;
+    width: 20px;
+}
+
+.BiCalendarCheck + text {
+    font-size: 12px;
+}
+
+.label {
+    width: 52px;
+    height: 24px;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RallyName {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+}

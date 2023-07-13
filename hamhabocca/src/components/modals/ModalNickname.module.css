@@ -1,0 +1,83 @@
+.modal {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    z-index: 99;
+}
+
+.header {
+    width: 100% auto;
+    height: 40px;
+    font-size: 22px;
+    display: flex;
+    padding-top: 25px;
+    border-bottom: 1.5px solid black;
+    margin: 0 25px 0 30px;
+}
+
+.info {
+    width: 100% auto;
+    text-align: center;
+    padding-top: 40px;
+    height: 150px;
+}
+
+.info div:first-child {
+    height: 60px;
+}
+
+.info > div > h3 {
+    margin: 10px;
+}
+
+/* 모달창 내부 확인 버튼 */
+.ok {
+    width: 100px;
+    height: 40px;
+    background-color: #056DFA;
+    color: white;
+    margin-top: 50px;
+    border: none;
+    font-weight: bold;
+}
+
+/* 닉네임 */
+
+.nickname {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.nickname div {
+    display: flex;
+}
+
+.checkName {
+    width: 100px;
+    height: 44px;
+    background-color: #FF7A00;
+    color: white;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.textfield {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.checkResult {
+    width: 314px;
+    color: grey;
+}

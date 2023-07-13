@@ -1,0 +1,36 @@
+.main {
+    height: 1000px;
+    margin-top : 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 830px;
+}
+
+.header{
+    width: 100%auto;
+    height: 35px;
+    font-size: 17px;
+    display: flex;
+    justify-content: left;
+    border-bottom: 3px solid gray;
+}
+
+.category {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 5px;
+    height: 30px;
+    float: right;
+}
+
+
+.category div {
+    flex-basis: 50px;
+    flex-grow: 1;
+    border-left: 1.5px solid #202020;
+}

@@ -1,0 +1,171 @@
+.HomeSearchFilter {
+    background-color: white;
+    border-radius: 5px;
+    width: 660px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeSearchFilter form {
+    width: 470px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px 0px;
+}
+
+.RallyType {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.RallyType input {
+    display: none;
+}
+
+.RallyType div {
+    display: flex;
+    width: 86px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.RallyType label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.RallyType div:has(input[id='ipmun']) {
+    color: #056DFA;
+    border: 2px solid #056DFA;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+    opacity: 30%;
+}
+.RallyType div:has(input[id='chobo']) {
+    color: white;
+    border: 2px solid #60A3FF;
+    background-color: #60A3FF;
+    opacity: 30%;
+}
+.RallyType div:has(input[id='jungsu']) {
+    color: white;
+    border: 2px solid #056DFA;
+    background-color: #056DFA;
+    opacity: 30%;
+}
+.RallyType div:has(input[id='gosu']) {
+    color: white;
+    border: 2px solid #0E4288;
+    background-color: #0E4288;
+    opacity: 30%;
+}
+.RallyType div:has(input[id='legend']) {
+    color: white;
+    border: 2px solid #303030;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #303030;
+    opacity: 30%;
+}
+
+.RallyType div:has(input:checked) {
+    opacity: 100%;
+}
+
+.QuestionButton {
+    background-color: #056DFA;
+    color: white;
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.RallyLocation {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DistanceAndPeople {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.DistanceAndPeople input {
+    width: 20px;
+    height: 20px;
+    text-align: right;
+    font-size: 16px;
+    border: none;
+}
+
+.RallyDistance, .RallyPeople {
+    display: flex;
+    gap: 0px 10px;
+    align-items: center;
+}
+
+.RallyLocation select{
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.RallyLocation input{
+    padding: none;
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.RallyDistance button, .RallyPeople button {
+    background-color: #7D7D7D;
+    color: white;
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+}
+
+.Submit {
+    width: 225px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}

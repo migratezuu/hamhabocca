@@ -1,0 +1,123 @@
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+    height: 40px;
+}
+
+.dropdownbox {
+    margin-right: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+.input {
+    height: 40px;
+}
+
+.searchfield {
+    width: 403px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.searchbtn{
+    width: 100px;
+    height: 40px;
+    background: #056DFA;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.board {
+    height: 464px;
+    margin-top: 36px;
+}
+
+.cg {
+    height: 40px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align:center;
+    align-items: center;
+}
+
+.d1 {
+    display: flex;
+    justify-content: left;
+}
+
+.d2 {
+    display: flex;
+    justify-content: left;
+}
+
+.cgselect {
+    border: none;
+    margin-right: 10px;
+}
+
+.list {
+    height: 398px;
+}
+
+.btn button {
+    width: 100px;
+    height: 40px;
+    background: #056DFA;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    float: right;
+    margin-top: 25px;
+    
+}
+
+.postname {
+    padding-left: 10px;
+    border-left: 1px solid #202020;
+    font-weight: 500;
+}
+
+.writer {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px solid #202020;
+    font-weight: 500;
+}
+
+.date {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px solid #202020;
+    font-weight: 500;
+}
+
+.pagination {
+    height: 30px;
+    margin-top: 140px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    border: none;
+    width: 30px;
+    background: none;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination button:hover {
+    cursor: pointer;
+    color: #A5A5A5;
+}

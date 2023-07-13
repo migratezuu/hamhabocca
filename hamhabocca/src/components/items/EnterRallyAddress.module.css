@@ -1,0 +1,41 @@
+.address button {
+    width: 25%;
+    border: none;
+    border-radius: 2px;
+    background: #056DFA;
+    color: white;
+    font-size: 16px;
+}
+
+.address input {
+    width: 70%;
+    padding: 10px;
+}
+
+.address div {
+    height: 50px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    margin-top: 10px;
+    z-index: 99;
+}
+
+.modal {
+    position: absolute;
+    width: 500px;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    z-index: 99;
+}

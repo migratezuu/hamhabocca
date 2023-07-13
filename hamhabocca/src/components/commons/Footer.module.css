@@ -1,0 +1,58 @@
+.footer {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 50px;
+    width: 100vw;
+    height : 80px;
+    padding: 15px 0;
+    background: #056DFA;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.contents {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.href ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.href li {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+
+.href li:first-child {
+    border: none;
+}
+
+.href a {
+    text-decoration: none;
+    color: white;
+}
+
+.info {
+    text-align: right;
+}
+
+.info span{
+    margin-left: 20px;
+}
+
+.copy {
+    text-align: center;
+}

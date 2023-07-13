@@ -1,0 +1,125 @@
+.post {
+    height: 40px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align:center;
+    align-items: center;
+}
+
+.d1 {
+    display: flex;
+    justify-content: left;
+}
+
+.d2 {
+    display: flex;
+    justify-content: left;
+}
+
+.contants {
+    
+    height: 398px;
+}
+
+.postname {
+    padding-left: 10px;
+    border-left: 1px solid #202020;
+    font-weight: 500;
+}
+
+.writer {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px solid #202020;
+    font-weight: 500;
+}
+
+.date {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px solid #202020;
+    font-weight: 500;
+}
+
+.member {
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+.img {
+    margin-top: 45px;
+    width: 353px;
+    height: 299px;
+    background-color: gray;
+}
+
+.nick {
+    display: flex;
+    padding-right: 10px;
+}
+
+.date2 {
+    display: flex;
+    color: gray;
+}
+
+.nick2 {
+    display: flex;
+    padding-right: 10px;
+}
+
+.date3 {
+    display: flex;
+    color: gray;
+}
+
+.comment3 {
+    width: 85%;
+    height: 80px;
+    border: 2px solid lightgray;
+    border-radius: 5px;   
+    margin-right: 10px;
+}
+
+.container {
+    margin-top: 5px;
+    display: flex;
+}
+
+.btn {
+    width: 100px;
+    height: 80px;
+    border: 2px solid #056DFA;
+    border-radius: 5px;
+    background-color: white;
+    color : #056DFA;
+    font-weight: bold;
+    align-items : stretch;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: right;
+}
+
+.editbtn {
+    width: 100px;
+    height: 31px;
+    border: 2px solid #056DFA;
+    background-color: #056DFA;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.deletebtn {
+    width: 100px;
+    height: 31px;
+    border: 2px solid #FF342B;
+    background-color: #FF342B;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}

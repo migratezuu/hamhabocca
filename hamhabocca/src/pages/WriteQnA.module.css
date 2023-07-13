@@ -1,0 +1,63 @@
+.btn button {
+    width: 100px;
+    height: 40px;
+    background: #056DFA;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    float: right;
+    margin-bottom: 123px;
+    margin-top: 30px;
+    margin-right: 500px;
+}
+
+/* .all div {
+    border : 1px solid red;
+}  */
+
+.title {
+    margin-top: 63px;
+}
+
+.dropdownbox {
+    margin-left: 18px;
+    width: 120px;
+    height: 40px;
+}
+
+.titfield {
+    margin-left: 45px;
+    width: 700px;
+    height: 40px;
+}
+
+.conTextarea {
+    width: 700px;
+    height: 230px;
+}
+
+.textfield {
+    margin-left: 75px;
+    width: 700px;
+    height: 230px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    border : 1px solid black;
+}
+
+.fileImg {
+    margin-top: 30px;
+}
+
+.filearea {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.labelarea {
+    margin-top: 5px;
+}

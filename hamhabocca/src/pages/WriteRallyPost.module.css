@@ -1,0 +1,283 @@
+/* 상단 */
+.container {
+    display: flex;
+    font-weight: 400;
+}
+
+.container button {
+    cursor: pointer;
+}
+
+.board {
+    border-left: 1.5px solid #202020;
+    width: 745px;
+    padding-left: 55px;
+}
+
+.title {
+    height: 60px;
+    border-bottom: 1.5px solid #202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.edit {
+    width: 65px;
+    height: 30px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    background: #D9D9D9;
+    color: #303030;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* 랠리 타입 */
+
+.RallyType {
+    border: 1px dotted red;
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.RallyType input {
+    display: none;
+}
+
+.RallyType>div {
+    display: flex;
+    width: 86px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.RallyType>label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.RallyType>div:has(input[id='lvl1']) {
+    color: #056DFA;
+    border: 2px solid #056DFA;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+    opacity: 30%;
+}
+
+.RallyType>div:has(input[id='lvl2']) {
+    color: white;
+    border: 2px solid #056DFA;
+    background-color: #4995ff;
+    opacity: 30%;
+}
+
+.RallyType>div:has(input[id='lvl3']) {
+    color: white;
+    border: 2px solid #056DFA;
+    background-color: #056DFA;
+    opacity: 30%;
+}
+
+.RallyType>div:has(input[id='lvl4']) {
+    color: white;
+    border: 2px solid #0E4288;
+    background-color: #0E4288;
+    opacity: 30%;
+}
+
+.RallyType>div:has(input[id='lvl5']) {
+    color: white;
+    border: 2px solid #056DFA;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #303030;
+    opacity: 30%;
+}
+
+.RallyType div:has(input:checked) {
+    opacity: 100%;
+}
+
+.QuestionButton {
+    background-color: #056DFA;
+    color: white;
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* 랠리정보 */
+
+.rallyPost {
+    display: flex;
+    flex-flow: column;
+}
+
+.rallyPost h3 {
+    margin: 15px 0;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -5.5%;
+}
+
+.rallyName input {
+    padding-left: 10px;
+    width: 400px;
+    height: 40px;
+    border: 2px solid #D9D9D9;
+    border-radius: 2px;
+    font-size: 16px;
+
+}
+
+.rallyName h3 {
+    display: flex;
+}
+
+.rallyName h3 p {
+    font-size: 12px;
+}
+
+/* 랠리 폼 맵 */
+.rallyMap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 맵API 위치*/
+.mapImg>div {
+    width: 400px;
+    height: 400px;
+    background-color: #D9D9D9;
+}
+
+.mapInfo {
+    width: 320px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.people>div {
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.people p:nth-child(4) {
+    margin: 0 10px;
+}
+
+.people input {
+    margin: 5px 5px 0 10px;
+    width: 30px;
+    height: 40px;
+    border: 2px solid #D9D9D9;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.dateInput {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #D9D9D9;
+    padding: 0 5px;
+}
+
+.setMap>button {
+    width: 100%;
+    height: 65px;
+    background-color: #056DFA;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+}
+
+.estimate {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.estimate div:last-child input {
+    width: 50px;
+    height: 48px;
+    border: 2px solid #D9D9D9;
+    padding: 0 5px;
+    font-size: 16px;
+}
+
+.estimate div:last-child {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+
+.locationDetail input {
+    width: 312px;
+    height: 50px;
+}
+
+/* 주소창 */
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.enter>div {
+    animation: slideDown 0.3s linear;
+}
+
+/* 텍스트 입력란 */
+
+.text {
+    height: 380px;
+    margin-top: 10px;
+    border: 2px solid #D9D9D9;
+}
+
+.text>textarea {
+    margin: 0;
+    width: 720px;
+    height: 360px;
+    resize: none;
+    padding: 10px;
+}

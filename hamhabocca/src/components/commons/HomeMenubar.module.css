@@ -1,0 +1,62 @@
+.Body {
+    background-color: #056DFA;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.Container {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rally {
+    display: flex;
+    height: 100%;
+}
+
+.Container li {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: inset 0 0px 0 white;
+}
+
+.Container li * {
+    text-decoration: none;
+    color: white;
+}
+
+.Other {
+    display: flex;
+    height: 100%;
+}
+
+.Login {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+.Login a {
+    color: #056DFA;
+    font-weight: 700;
+}
+
+.Container li:hover {
+    box-shadow: inset 0 -10px 0 white;
+    transition: .5s ease;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hamhabocca.dallibocca.review.repository.ReviewMapper">
+
+  <resultMap id="ReviewResultMap" type="com.hamhabocca.dallibocca.review.entity.Review">
+    <id property="reviewId" column="review_id"/>
+    <result property="rallyId" column="rally_id"/>
+    <result property="reviewTitle" column="review_title"/>
+    <result property="memberId" column="member_Id"/>
+    <result property="reviewWriteDate" column="review_Write_Date"/>
+<!--    <result property="rallyName" column="rally_name"/>-->
+<!--    <result property="rallyType" column="rally_type"/>-->
+<!--    <result property="rallyLocation" column="rally_location"/>-->
+  </resultMap>
+
+  <select id="findReviewListBySearch" resultMap="ReviewResultMap" parameterType="com.hamhabocca.dallibocca.review.dto.ReviewSearchFilter">
+    SELECT r.*, rv.rally_name, rv.rally_type, rv.rally_location
+    FROM REVIEW r
+    JOIN RALLY rv ON r.rally_id = rv.rally_id
+    WHERE 1 = 1
+    <if test="type != null and type != ''">
+      AND rv.rally_type = #{type}
+    </if>
+    <if test="location != null and location != ''">
+      AND rv.rally_location LIKE CONCAT('%', #{location}, '%')
+    </if>
+  </select>
+
+</mapper>

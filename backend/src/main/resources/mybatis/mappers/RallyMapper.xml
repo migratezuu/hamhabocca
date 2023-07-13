@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hamhabocca.dallibocca.rally.repository.RallyMapper">
+
+  <resultMap id="RallyResultMap" type="com.hamhabocca.dallibocca.rally.entity.Rally">
+    <id property="rallyId" column="rally_id"/>
+    <result property="masterId" column="master_id"/>
+    <result property="rallyDate" column="rally_date"/>
+    <result property="rallyDetail" column="rally_detail"/>
+    <result property="rallyDistance" column="rally_distance"/>
+    <result property="rallyEndLocation" column="rally_end_location"/>
+    <result property="rallyLocation" column="rally_location"/>
+    <result property="rallyMaximum" column="rally_maximum"/>
+    <result property="rallyMinimum" column="rally_minimum"/>
+    <result property="rallyName" column="rally_name"/>
+    <result property="rallyStatus" column="rally_status"/>
+    <result property="rallyType" column="rally_type"/>
+    <result property="rallyWriteDate" column="rally_write_date"/>
+  </resultMap>
+
+  <select id="findRallyListBySearch" resultMap="RallyResultMap" parameterType="com.hamhabocca.dallibocca.rally.dto.SearchFilter">
+    SELECT * FROM RALLY
+    WHERE rally_status not in ('취소됨', '완주!')
+    <if test="type != null and type != ''">
+      AND rally_type = #{ type }
+    </if>
+    <if test="location != null and location != ''">
+      AND rally_location like CONCAT('%', #{location}, '%')
+    </if>
+    <if test="date != null and date != ''">
+      AND rally_date like CONCAT(#{date}, '%')
+    </if>
+    <if test="distance != null and distance != 0">
+      AND rally_distance <![CDATA[ <= ]]> #{ distance }
+    </if>
+    <if test="maximum != null and maximum != 0">
+      AND rally_maximum <![CDATA[ <= ]]> #{ maximum }
+    </if>
+  </select>
+
+</mapper>

@@ -1,0 +1,64 @@
+.Container {
+    display: flex;
+    height: calc( 100vh - 270px );
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 80px;
+}
+
+.LoginBox {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 80px;
+}
+
+.LoginBox h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.Buttons {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap:20px;
+}
+
+.Buttons button {
+    width: 320px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    column-gap: 15px;
+}
+
+.Buttons button img {
+    width: 24px;
+    height: 24px;
+}
+
+.Google {
+    background-color: white;
+    color: #7D7D7D;
+}
+
+.Naver {
+    background-color: #03c75a;
+    color: white;
+}
+
+.Kakao {
+    background-color: #fae100;
+    color: #000;
+}

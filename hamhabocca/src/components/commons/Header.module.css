@@ -1,0 +1,22 @@
+.Header {
+    width: 100vw;
+    height: 540px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(white, #eee7ff,#90beff);
+}
+
+.Logo {
+    width: 350px;
+    height: 110px;
+    margin: 30px 0;
+}
+
+.ThatText {
+    font-size: 12px;
+    width: 660px;
+    text-align: right;
+    margin-bottom: 5px;
+}
